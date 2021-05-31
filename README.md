@@ -14,4 +14,4 @@ As the original node I wrote this for had no external internet connectivity, I i
 I just aliased 'quad' to quad.bash so when I start up a shell, I can just type 
 $quad
 Stupid simple, but an elementary exercise and experiment with static placement and startup of multiple shells at once.
-
+For xdpyinfo git clone https://gitlab.freedesktop.org/xorg/app/xdpyinfo

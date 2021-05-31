@@ -3,7 +3,7 @@
 # and executes a script in each 
 # All Rights Reserved, All Wrongs Reversed
 # Matt Huston 2020
-echo "starting up 4 new xterms"
+echo "starting up 3 new xterms"
 # ORANGE
 # xterm -geometry 90x30+0+10 -fg ORANGE -bg BLACK -bw 5 -hold -e glances &
 xterm -geometry 304x44+52+2 -fg YELLOW -bg BLACK  -e ytop &
@@ -13,7 +13,7 @@ xterm -geometry 304x44+52+2 -fg YELLOW -bg BLACK  -e ytop &
 xterm -geometry 150x40+52-2 -fg GREEN -bg BLACK  -e htop &
 # YELLOW
 # xterm -geometry 90x30-0+0 -fg YELLOW -bg BLACK -bw 5 -hold -e ytop &
-# xterm -geometry 304x44-0+0 -fg YELLOW -bg BLACK -bw 5  -e ytop &
+# xterm -geometry 304x44-0+0 -fg YELLOW -bg BLACK  -e  free -m -l -w &
 # RED
 # xterm -geometry 90x30-0-0 -fg RED -bg BLACK -bw 5 -hold -e ncdu &
 # xterm -geometry 90x30-0-0 -fg RED -bg BLACK -bw 5 -hold -e $HOME/stats.sh &
